@@ -1,0 +1,59 @@
+= Vault Organizer 2000 
+
+= Why use this specific script 
+This script can be particularly useful for photographers, 
+videographers, and anyone who deals with a large number of files in a directory.
+By automatically organizing files into subdirectories based on their file type,
+it can make it easier to find and manage files, and save time compared to manually
+moving files into their appropriate subdirectories.
+
+= Demo
+
+Before
+
+[source]
+====
+MyFiles
+├── cat.jpg
+├── dog.png
+├── video.mp4
+├── presentation.pptx
+├── document.docx
+├── text.txt
+├── program.py
+├── archive.zip
+├── audio.mp3
+└── other.unknown
+==== 
+
+After
+[source]
+====
+MyFiles
+├── documents
+│   ├── document.docx
+│   └── presentation.pptx
+├── image
+│   ├── cat.jpg
+│   └── dog.png
+├── video
+│   └── video.mp4
+├── audio
+│   └── audio.mp3
+└── unrecognized
+    ├── text.txt
+    ├── program.py
+    ├── archive.zip
+    └── other.unknown
+====
+
+
+= What it **can** do:
+* Move files in the current directory into subdirectories based on file type: images, video, documents, and unrecognized.
+* Sort WebP files into either the images or video subdirectories based on their kind.
+
+= What it **can't** do (at least for now):
+* Sort custom content inside the subdirectories.
+
+= License 
+Project is signed under LGPLv2
