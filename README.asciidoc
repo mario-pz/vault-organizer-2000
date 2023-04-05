@@ -9,11 +9,11 @@ moving files into their appropriate subdirectories.
 
 = Demo
 
-Before
+before
 
 [source]
-====
-MyFiles
+----
+myfiles
 ├── cat.jpg
 ├── dog.png
 ├── video.mp4
@@ -24,12 +24,13 @@ MyFiles
 ├── archive.zip
 ├── audio.mp3
 └── other.unknown
-==== 
+----
 
-After
+after
+
 [source]
-====
-MyFiles
+----
+myfiles
 ├── documents
 │   ├── document.docx
 │   └── presentation.pptx
@@ -45,7 +46,7 @@ MyFiles
     ├── program.py
     ├── archive.zip
     └── other.unknown
-====
+----
 
 
 = What it **can** do:
